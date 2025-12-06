@@ -1,0 +1,35 @@
+# Environnements Python
+jupyter_environments/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Fichiers de logs SLURM
+*.out
+*.err
+slurm-*.out
+
+# Fichiers de connexion temporaires
+connection_info_*.txt
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.iml
+
+# Fichiers de configuration locale
+jupyter_job_*.sh
+tunnel_help_*.txt
